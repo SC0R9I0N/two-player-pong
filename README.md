@@ -1,10 +1,14 @@
 # two-player-pong
 Creates a basic single player Pong game - work in progress
 
-Currently contains unreachable code, planned to be fixed in a future update
-- unreachable code fixed, not committed
+Fixes:
+- Fixed unreachable code
+- Coded so that it pops out a new window
+- Changed the color scheme to match original Pong
 
-- in the process of updating the code to have a new window instead of showing in terminal
-- this broke the win condition, fixing
-- when perfectly colliding with the ball at the top/bottom of the racket, the ball bugs out
-- implement ball acceleration
+Upcoming Changes:
+- Implement a win condition as it currently runs until the window is closed
+- When perfectly colliding with the ball at the top/bottom of the racket, the ball bugs out. This needs fixed
+- Implement ball acceleration
+- Potentially change the scoreboard to pop up in the center when a player scores
+- Implement the following delays: start of game to allow players to prepare (show a text like "first to 10 wins") and after a player scores
